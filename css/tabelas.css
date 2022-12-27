@@ -1,0 +1,47 @@
+
+
+table {
+
+	border-right: 7px solid lightgray;
+	border-left: 1px solid lightgray;
+	border-top: 2px solid lightgray;
+	border-bottom: 4px solid lightgray;
+	padding: 0.5rem;
+	background: #ffffff;
+	width: 100%;
+	
+}
+
+
+table tbody tr:nth-child(odd) {background-color: #D6EEEE;
+}
+
+
+table th, td {
+	padding: 0.5rem;
+	font-size: 1.6rem;
+	text-align: center;
+	vertical-align: middle;
+}
+
+table tr td:first-child {
+	text-align: center;
+	font-weight: bold;
+}
+
+.table-container {
+	padding: 0.1rem 1rem;
+}
+
+.table-container h3 { font-family:sans-serif;
+}
+
+.table-container thead {
+	background: #034589;
+	color: #ffffff;
+}
+
+.table-container tfoot td {
+	font-weight: bold;
+	background-color: #D6EEEE;
+}
